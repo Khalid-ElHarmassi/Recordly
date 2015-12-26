@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  song_id: 1
+  spng_title: MyString
+  album_id: MyString
+  favorite_song: false
+
+two:
+  song_id: 1
+  spng_title: MyString
+  album_id: MyString
+  favorite_song: false

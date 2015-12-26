@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  album_id: 1
+  album_title: MyString
+  album_date: 2015-12-23
+  artist_id: 1
+  favorite_album: false
+  user_id: 1
+
+two:
+  album_id: 1
+  album_title: MyString
+  album_date: 2015-12-23
+  artist_id: 1
+  favorite_album: false
+  user_id: 1
