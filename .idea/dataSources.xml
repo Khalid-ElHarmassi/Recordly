@@ -45,7 +45,7 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-54-204-5-56.compute-1.amazonaws.com:5432/dbmi5h1q0n8lf3</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-204-5-56.compute-1.amazonaws.com:5432/dc421jo79uq6ah</jdbc-url>
       <explain-plan-config>
         <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
       </explain-plan-config>

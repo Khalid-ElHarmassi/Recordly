@@ -87,7 +87,7 @@ test:
 production:
   <<: *default
   host:  ec2-54-204-5-56.compute-1.amazonaws.com
-  database: dbmi5h1q0n8lf3
-  username: czhmpkcacnqzrj
+  database: dc421jo79uq6ah
+  username: uqegqdgtchfhhl
   port: 5432
-  password: <%= ENV['RECORDLY_DATABASE_PASSWORD'] %>
+  password: woKkRF2pXZpS1tgSKCAzEedAQ_
