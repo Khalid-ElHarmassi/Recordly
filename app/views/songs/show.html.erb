@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+
+
+<p>
+  <strong>Song title:</strong>
+  <%= @song.spng_title %>
+</p>
+
+<p>
+  <strong>Album:</strong>
+  <%= @song.album_id %>
+</p>
+
+<p>
+  <strong>Favorite song:</strong>
+  <%= @song.favorite_song %>
+</p>
+
+<%= link_to 'Edit', edit_song_path(@song) %> |
+<%= link_to 'Back', songs_path %>

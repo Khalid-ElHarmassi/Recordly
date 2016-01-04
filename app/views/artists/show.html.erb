@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Artist name:</strong>
+  <%= @artist.artist_name %>
+</p>
+
+<p>
+  <strong>Favorite artist:</strong>
+  <%= @artist.favorite_artist %>
+</p>
+
+<p>
+<table>
+  <caption><strong>Albums</strong></caption>
+   <% albums =Album.all %>
+    <% albums.each do |album|%>
+          <% if @artist.artist_name == album.artist_name %>
+           <tr>
+                <td><%= link_to album.album_title, album_path(album) %></td>
+            </tr>
+          <% end %>
+  <% end %>
+</table>
+</p>
+
+<%= link_to 'Edit', edit_artist_path(@artist) %> |
+<%= link_to 'Back', artists_path %>
