@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  artist_id: 1
+  artist_id: MyString
   artist_name: MyString
   favorite_artist: false
 
 two:
-  artist_id: 1
+  artist_id: MyString
   artist_name: MyString
   favorite_artist: false

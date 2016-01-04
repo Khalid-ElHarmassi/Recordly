@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  album_id: 1
+  album_id: MyString
   album_title: MyString
-  album_date: 2015-12-23
-  artist_id: 1
+  album_date: 2015-12-31
+  artist_id: MyString
   favorite_album: false
-  user_id: 1
+  user_id: MyString
 
 two:
-  album_id: 1
+  album_id: MyString
   album_title: MyString
-  album_date: 2015-12-23
-  artist_id: 1
+  album_date: 2015-12-31
+  artist_id: MyString
   favorite_album: false
-  user_id: 1
+  user_id: MyString

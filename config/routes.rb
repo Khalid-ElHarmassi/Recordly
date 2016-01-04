@@ -1,4 +1,46 @@
 Rails.application.routes.draw do
+
+  resources :songs
+  resources :albums
+  resources :artists
+  devise_for :record_users
+  get 'home' => 'page#home'
+
+  get 'albums' => 'page#albums'
+
+  get 'artists' => 'page#artists'
+
+  get 'songs' => 'page#songs'
+
+  get 'favorite_albums' => 'page#favorite_albums'
+
+  get 'favorite_songs' => 'page#favorite_songs'
+
+  get 'favorite_artists' => 'page#favorite_artists'
+
+  get 'user_login' => 'page#user_login'
+
+  get 'search' => 'page#search'
+
+  #get 'page/home'
+
+  get 'albums' => 'page#albums'
+
+  get 'artists' => 'page#artists'
+
+  get 'songs' => 'page#songs'
+
+  get 'favorite_albums' => 'page#favorite_albums'
+
+  get 'favorite_songs' => 'page#favorite_songs'
+
+  get 'favorite_artists' => 'page#favorite_artists'
+
+  get 'user_login' => 'page#user_login'
+
+  get 'search' => 'page#search'
+
+  root 'page#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

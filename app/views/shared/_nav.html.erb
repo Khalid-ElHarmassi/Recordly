@@ -1,0 +1,22 @@
+<nav><!-- top nav -->
+  <div class="menu">
+    <ul>
+      <li><%= nav_link_to 'Albums', 'albums', albums_path, 'current_page' %></li>
+      <li><%= link_to 'Songs', songs_path %></li>
+      <li><%= link_to 'Artists', artists_path %></li>
+      <li><%= link_to 'Favorite' %>
+        <ul>
+          <li><%= link_to 'Albums', favorite_albums_path %></li>
+          <li><%= link_to 'Songs', favorite_songs_path %></li>
+          <li><%= link_to 'Artists', favorite_artists_path %></li>
+        </ul>
+      </li>
+      <% if record_user_signed_in? %>
+          <li><%= link_to 'Logout', destroy_record_user_session_path, :method => :delete %></li>
+          <% else %>
+      <li><%= link_to 'Login', new_record_user_session_path %></li>
+          <% end %>
+    </ul>
+  </div>
+</nav><!-- end of top nav -->
+
