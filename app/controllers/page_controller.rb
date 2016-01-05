@@ -26,8 +26,12 @@ class PageController < ApplicationController
   end
 
   def search
-    @term = param["term"]
-    @searchalbums = param["searchalbums"] == "searchalbums"
+    @search=params[:search]
+    @album_results = Album.basic_search(@search)
+    @song_results = Song.basic_search(@search)
+    @artist_results = Artist.basic_search(@search)
+
+
 
   end
 end
