@@ -26,5 +26,8 @@ class PageController < ApplicationController
   end
 
   def search
+    @term = param["term"]
+    @searchalbums = param["searchalbums"] == "searchalbums"
+
   end
 end

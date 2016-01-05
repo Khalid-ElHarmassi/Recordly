@@ -1,2 +1,9 @@
-<h1>Page#search</h1>
+<h1>Search</h1>
 <p>Find me in app/views/page/search.html.erb</p>
+
+<%= form_for search_path, method: "POST" %>
+  <% text_field_tag :term, @term %>
+<br/>
+  <% check_box_tag :search_albums, "search_albums", @searchalbums %> Search Albums<br/>
+<% check_box_tag :search_albums, "search_albums", @searchalbums %>Search Albums<br/>
+  <%= image_submit_tag "search_icon.jpg" %>

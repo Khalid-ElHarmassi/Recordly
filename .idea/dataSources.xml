@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="74511480">
+  <component name="DataSourceManagerImpl" format="xml" hash="1583759793">
     <data-source source="LOCAL" name="Rails Recordly: test" uuid="f9d93a60-5ff3-4f4d-a75b-7fcddf64703e">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
@@ -45,7 +45,7 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-54-204-5-56.compute-1.amazonaws.com:5432/dc421jo79uq6ah</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-204-5-56.compute-1.amazonaws.com:5432/dc2ph56drjovhg</jdbc-url>
       <explain-plan-config>
         <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
       </explain-plan-config>

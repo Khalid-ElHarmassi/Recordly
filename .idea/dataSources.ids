@@ -185,13 +185,13 @@
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
         <introspection-state-number>712</introspection-state-number>
-        <introspection-timestamp>2016-01-04.09:55:07.205</introspection-timestamp>
+        <introspection-timestamp>2016-01-05.10:08:47.566</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
         <comment>system catalog schema</comment>
         <introspection-state-number>615</introspection-state-number>
-        <introspection-timestamp>2015-12-25.23:09:21.450</introspection-timestamp>
+        <introspection-timestamp>2016-01-05.10:08:48.437</introspection-timestamp>
       </schema>
       <sequence id="4" parent="2" name="albums_id_seq">
         <object-id>16581</object-id>

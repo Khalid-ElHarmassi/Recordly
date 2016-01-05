@@ -23,6 +23,7 @@ default: &default
 
 development:
   <<: *default
+  adapter: postgresql
   database: Recordly_development
 
   # The specified database role being used to connect to postgres.
@@ -86,8 +87,9 @@ test:
 #
 production:
   <<: *default
+  url: postgres://czhmpkcacnqzrj:7xd6oKKiAfea9lmC0UaddtG7nj@ec2-54-204-5-56.compute-1.amazonaws.com:5432/dbmi5h1q0n8lf3
   host:  ec2-54-204-5-56.compute-1.amazonaws.com
-  database: dc421jo79uq6ah
-  username: uqegqdgtchfhhl
+  database: dc2ph56drjovhg
+  username: gjepgvdasmichm
   port: 5432
-  password: woKkRF2pXZpS1tgSKCAzEedAQ_
+  password: MCtsmGt4OZzEF-Lt9fljkoq4KF
