@@ -1,3 +1,24 @@
 // Place all the styles related to the page controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+th {
+  background-color: #874C83;
+  color: white;
+  height: 30px;
+}
+
+tr:hover {
+  background-color: #F28CF1;
+  color: white;
+}
+
+td {
+  height: 50px;
+  vertical-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  margin: 0 0 20px 0;
+  line-height: 1.5em;
+}

@@ -14,8 +14,14 @@
   <tbody>
   <% @artist_results.each do |artist| %>
       <tr>
-        <td><%= link_to artist.artist_name, artist_path(artist) %></td>
-        <td><%= artist.favorite_artist %></td>
+        <td><%= link_to artist.artist_name, artist_path(artist) %>
+        <td style="text-align:center">
+          <% if artist.favorite_artist %>
+                &#10004;
+
+          <% else %> &nbsp; <% end %>
+        </td>
+
         <td><%= link_to 'Show', artist %></td>
         <td><%= link_to 'Edit', edit_artist_path(artist) %></td>
         <td><%= link_to 'Destroy', artist, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -18,7 +18,13 @@
       <tr>
         <td><%= link_to album.album_title, album_path(album) %></td>
         <td><%= album.album_date %></td>
-        <td><%= album.favorite_album %></td>
+
+        <td style="text-align:center"><% if album.favorite_album %>
+              &#10004;
+
+          <% else %> &nbsp; <% end %>
+        </td>
+
 
 
         <td><%= link_to 'Show', album %></td>
